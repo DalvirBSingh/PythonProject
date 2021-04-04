@@ -1,5 +1,5 @@
 # PythonProject
-CIS1051 Project Preproposal
+CIS1051 Project Phases
 
 # Preproposal
 
