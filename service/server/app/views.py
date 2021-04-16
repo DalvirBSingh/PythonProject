@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from .forms import UploadForm
 from .models import ImageModel
+from app.classifier import classifier
 
 def index(request):
     # if this is a POST request we need to process the form data
@@ -27,4 +28,6 @@ def index(request):
     return render(request, 'index.html', {'form': form})
 
 def process_upload(request):
+    c = classifier()
+    c.make_prediction()
     pass
