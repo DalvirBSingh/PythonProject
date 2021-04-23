@@ -97,7 +97,7 @@ Potential New Skills Gained From Project:
 
 
 
-# Status Report
+# Progress Report
 
 #### Your name
 
