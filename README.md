@@ -95,3 +95,35 @@ Potential New Skills Gained From Project:
 2) CNN understanding 
 3) Feature extraction and implication with different uses
 
+
+
+# Status Report
+
+#### Your name
+
+Dalvir Singh
+
+#### Your section leader's name
+Sai Shi
+
+#### Project title
+
+Emotion Detection System
+
+***
+
+Short answers for the below questions suffice. If you want to alter your plan for your project (and obtain approval for the same), be sure to email your section leader directly!
+
+#### What have you done for your project so far?
+
+- Learned how CNN works & feature extraction from images
+- Trained a machine learning model using kaggle data set to detect a user's emotion provided a facial image
+- Learning Django Web Architecture Pattern
+- Created a Django Web application to serve the trained machine learnig model. Created simple UI pages to allow user to upload an image and display the results on the next page. 
+
+#### What have you not done for your project yet?
+- Refine/tune the machine learning models to get better accuracy on 
+- Integrate the web app & trained machine learning model
+
+#### What problems, if any, have you encountered?
+- No big problems, just minor bugs & issues. Most time consuming part is training the machine learning model on the large dataset. I still need to optimize the parameters to reach better accuracy and each time it just takes so long. 
