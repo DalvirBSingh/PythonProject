@@ -24,7 +24,7 @@ def index(request):
             prediction = process_upload(name)
             emotion =prediction[0]
             prob= prediction[1]
-            print("Outputfile: ",outputfilename)
+            print("Root Path: " , settings.ROOT_PATH)
             return render(request, 'result.html',{'file': outputfilename, 'emotion': emotion, 'probability': prob})
 
     # if a GET (or any other method) we'll create a blank form

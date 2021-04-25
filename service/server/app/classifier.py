@@ -2,11 +2,12 @@ import joblib
 from tensorflow.keras.preprocessing import image
 import numpy as np
 import os.path
+from django.conf import settings
 
 class classifier:
     def __init__(self):
         #Dataset 1 predictive models
-        self.model =  joblib.load("/Users/ds070111/Documents/GitHub/PythonProject/service/server/ml/trained_model.joblib")
+        self.model =  joblib.load(settings.ROOT_PATH+ "ml/trained_model.joblib")
 
     def emotion_analysis(self, emotions):
         objects = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral']
