@@ -130,7 +130,7 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 
 
-#### Building Project Locally
+# Building Project Locally
 - Create virtual environment for this project so your global python packages/dependencies are not affected
 - In the virtual environment, install all the project dependencies listed in the requirements.txt file
   - pip install -r requirements.txt
