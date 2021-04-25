@@ -2,7 +2,6 @@
 CIS1051 Project Phases
 
 # Preproposal
-
 ## What idea(s) do you have for your final project?
 
 - Facial Image Emotion Detecter
@@ -127,3 +126,40 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What problems, if any, have you encountered?
 - No big problems, just minor bugs & issues. Most time consuming part is training the machine learning model on the large dataset. I still need to optimize the parameters to reach better accuracy and each time it just takes so long. 
+
+
+
+
+#### Building Project Locally
+- Create virtual environment for this project so your global python packages/dependencies are not affected
+- In the virtual environment, install all the project dependencies listed in the requirements.txt file
+  - pip install -r requirements.txt
+- Go into service/server directory & run "python manage.py runserver" which initiates the web server to serve our project
+- Go to http://127.0.0.1:8000/ to view the application local machine
+
+
+
+#### Project Workflow Images
+
+
+- Home Screen
+
+
+![Screen Shot 2021-04-25 at 11 30 35 AM](https://user-images.githubusercontent.com/65456906/115999524-1e8d2a00-a5ba-11eb-881d-6aed6090339b.png)
+
+![Screen Shot 2021-04-25 at 11 31 52 AM](https://user-images.githubusercontent.com/65456906/115999529-21881a80-a5ba-11eb-9c9f-d5f102d8d1c3.png)
+
+![Screen Shot 2021-04-25 at 11 30 56 AM](https://user-images.githubusercontent.com/65456906/115999531-2351de00-a5ba-11eb-881a-1acb36b75ee5.png)
+
+![Screen Shot 2021-04-25 at 11 32 21 AM](https://user-images.githubusercontent.com/65456906/115999533-251ba180-a5ba-11eb-852f-b0e032901853.png)
+
+
+
+
+
+
+
+
+
+
+
