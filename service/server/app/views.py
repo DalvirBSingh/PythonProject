@@ -18,10 +18,14 @@ def index(request):
         form = UploadFileForm(request.POST, request.FILES)
 
         if form.is_valid():
-            print(request.FILES['myfilefield'])
-            outputfilename = "static/images/"+ handle_uploaded_file(request.FILES['myfilefield'])
+            print(request.FILES['File'])
+            name = handle_uploaded_file(request.FILES['File'])
+            outputfilename = "static/images/"+ name
+            prediction = process_upload(name)
+            emotion =prediction[0]
+            prob= prediction[1]
             print("Outputfile: ",outputfilename)
-            return render(request, 'result.html',{'file': outputfilename})
+            return render(request, 'result.html',{'file': outputfilename, 'emotion': emotion, 'probability': prob})
 
     # if a GET (or any other method) we'll create a blank form
     else:
@@ -36,19 +40,7 @@ def handle_uploaded_file(f):
             destination.write(chunk)
     return f.name
 
-# def applyfilter(filename):
-#     inputfile = settings.ROOT_PATH + 'media/' + filename
-#     print("Input file: ", inputfile)
-#     f=filename.split('.')
-#     outputfilename = f[0] + "-id-" + str(random.randint(1,10000000))+ '-output.jpg'
-#     outputfile = settings.ROOT_PATH + 'app/media/' + outputfilename 
-#     im = Image.open(inputfile)
-
-#     im.save(outputfile)
-#     return (outputfilename, outputfile)
-
-def process_upload(request):
-    print(request)
-    #c = classifier()
-    #c.make_prediction()
-    pass
+def process_upload(f):
+    print("In process upload function")
+    c = classifier()
+    return c.make_prediction(f)
