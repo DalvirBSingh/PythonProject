@@ -148,9 +148,15 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 # Building Project Locally
 - Create virtual environment for this project so your global python packages/dependencies are not affected
 - In the virtual environment, install all the project dependencies listed in the requirements.txt file
-  - pip install -r requirements.txt
-- Go into service/server directory & run "python manage.py runserver" which initiates the web server to serve our project
+  - "pip install -r requirements.txt"
+- Go into service/server directory
+  - run "python manage.py runserver" which initiates the web server to serve our project
 - Go to http://127.0.0.1:8000/ to view the application local machine
+
+      Note: Do not mess with the jupyter notebook, it will fail since this repository does not contain the data.csv file which github isn't letting me push because       it is extremely large. 
+
+     ![image](https://user-images.githubusercontent.com/65456906/116145403-4c9e6700-a6ab-11eb-9582-6ac1d2db8e84.png)
+
 
 
 
