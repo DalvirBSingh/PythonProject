@@ -143,6 +143,14 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 - No big problems, just minor bugs & issues. Most time consuming part is training the machine learning model on the large dataset. I still need to optimize the parameters to reach better accuracy and each time it just takes so long. 
 
 
+#### Challeges 
+- Traininng the machine learning model takes forever, just 20 epoch took hours & 124 epochs in a attempt to increase accuracy took 16hours. As a result, I didn't have enough time to fine tune the parameters to achieve the best result or accuracy but did enough in the time span given to provide a proof of concept. 
+- Keras & tensor flow version conflicts, resolved by finding the right versions that mix well together
+
+#### What I enjoyed about this project
+- Learning more about computer vision and applying knowledges from different classes & personal experience 
+- Have a interesting projects to talk about in interviews
+
 #### Citations:
 
 - Project Inspired from the following links
