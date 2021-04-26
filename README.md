@@ -143,6 +143,15 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 - No big problems, just minor bugs & issues. Most time consuming part is training the machine learning model on the large dataset. I still need to optimize the parameters to reach better accuracy and each time it just takes so long. 
 
 
+#### Citations:
+
+- Project Inspired from the following links
+  - https://www.kaggle.com/msambare/fer2013
+  - https://www.kaggle.com/shawon10/facial-expression-detection-cnn/data?select=fer2013.csv
+  - https://www.deploymachinelearning.com/#django-and-react-tutorials
+
+
+
 
 
 # Building Project Locally
