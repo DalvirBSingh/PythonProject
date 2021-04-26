@@ -1,5 +1,20 @@
 # PythonProject
-CIS1051 Project Phases
+
+CIS1051 Project Sections
+
+- Demo
+- Preposal
+- Proposal
+- Building Project Locally Instructions
+
+
+
+# Demo
+
+##### Note : The video is 10 minutes long but in the description, the video has timestamps that can help navigate you to the parts you are intered in. The system design chapter is not required but I just did it since it seemed appropriate.  
+
+###### Link: https://youtu.be/CtjjvP5DAys
+
 
 # Preproposal
 ## What idea(s) do you have for your final project?
@@ -142,7 +157,7 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 #### Project Workflow Images
 
 
-- Home Screen
+- Screen Captures
 
 
 ![Screen Shot 2021-04-25 at 11 30 35 AM](https://user-images.githubusercontent.com/65456906/115999524-1e8d2a00-a5ba-11eb-881d-6aed6090339b.png)
